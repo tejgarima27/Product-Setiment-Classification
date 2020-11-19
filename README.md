@@ -6,11 +6,11 @@ The sentiment analysis requires a lot to be taken into account mainly due to the
 
 ### OBJECTIVE: TO INVESTIGATE BEST SUITED SUPERVISED TECHNIQUE FOR CLASSIFICATION OF PRODUCT DESCRIPTION SENTIMENTS.
 
-* Attribute Description:
-TextID - Unique Identifier Product 
-Description - Description of the product review by a user
-Product_Type - Different types of product (9 unique products)
-Class - Represents various sentiments(4 NOMINAL CLASSES)
+#### Attribute Description:
+*TextID - Unique Identifier Product 
+*Description - Description of the product review by a user
+*Product_Type - Different types of product (9 unique products)
+*Class - Represents various sentiments(4 NOMINAL CLASSES)
 
 * 0 - Cannot Say
 * 1 - Negative
@@ -25,9 +25,9 @@ The Supervised Learning Algorithm which is used over this task is Multi-Nomial L
 
 ### CONCLUSION
 Metrics:
-1.MULTINOMIAL LOGISTIC REGRESSION ON UNIGRAM MODEL - Accuracy:0.64257
-2.MULTINOMIAL LOGISTIC REGRESSION ON BIGRAM MODEL - Accuracy:0.66928
-3.MULTINOMIAL LOGISTIC REGRESSION ON TF-IDF VECTOR MODEL - Accuracy:0.60015
+* 1.MULTINOMIAL LOGISTIC REGRESSION ON UNIGRAM MODEL - Accuracy:0.64257
+* 2.MULTINOMIAL LOGISTIC REGRESSION ON BIGRAM MODEL - Accuracy:0.66928
+* 3.MULTINOMIAL LOGISTIC REGRESSION ON TF-IDF VECTOR MODEL - Accuracy:0.60015
 We have successufully modeled the text classifier to predict the sentiment of a product review.
 * The MULTINOMIAL LOGISTIC REGRESSION ON BIGRAM MODEL gave the highest accuracy among 3 of aroud 70%.
 As for further improvement we could apply different Transfer Learning models to train this model to get better results in short span of time.
